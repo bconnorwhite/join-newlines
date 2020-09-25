@@ -1,0 +1,36 @@
+{
+  "name": "join-newlines",
+  "version": "1.0.0",
+  "description": "Join an array of strings with newlines",
+  "license": "MIT",
+  "author": {
+    "name": "Connor White",
+    "email": "connor.bcw@gmail.com",
+    "url": "https://connorwhite.org"
+  },
+  "homepage": "https://connorwhite.org/join-newlines",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bconnorwhite/join-newlines.git"
+  },
+  "keywords": [],
+  "files": [
+    "build"
+  ],
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "bob build",
+    "lint": "bob lint",
+    "postversion": "git push --follow-tags",
+    "prepublishOnly": "yarn run lint && yarn run build"
+  },
+  "devDependencies": {
+    "@bconnorwhite/bob": "^2.4.2"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-bob"
+  },
+  "npmpackagejsonlint": {
+    "extends": "npm-package-json-lint-config-bob"
+  }
+}

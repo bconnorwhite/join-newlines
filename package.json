@@ -1,6 +1,6 @@
 {
   "name": "join-newlines",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Join an array of strings with newlines",
   "license": "MIT",
   "author": {

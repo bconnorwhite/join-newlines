@@ -20,6 +20,7 @@
   "main": "./build/index.js",
   "scripts": {
     "build": "bob build",
+    "commit": "bob commit",
     "lint": "bob lint",
     "postversion": "git push --follow-tags",
     "prepublishOnly": "yarn run lint && yarn run build && yarn test",

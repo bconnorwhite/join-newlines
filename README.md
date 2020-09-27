@@ -34,11 +34,18 @@ npm install join-newlines
 import join from "join-newlines";
 
 join([
-  "This is the first line."
-  "Then I want this on a second line."
+  "This is the first line.",
+  "Then I want this on a second line.",
   "I also want this on a third line."
 ]);
 // "This is the first line.\nThen I want this on a second line.\nI also want this on a third line."
+
+join([
+  "This is the first line.",
+  "Then I want this on a second line.",
+  "I also want a newline at the end."
+], true); // Add true to append a newline to the end as well.
+// "This is the first line.\nThen I want this on a second line.\nI also want a newline at the end.\n"
 ```
 
 ## FAQ

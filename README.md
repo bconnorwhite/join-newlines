@@ -4,7 +4,7 @@
     <img alt="npm" src="https://img.shields.io/npm/v/join-newlines.svg">
   </a>
   <a href="https://github.com/bconnorwhite/join-newlines">
-    <img alt="typescript" src="https://img.shields.io/badge/TypeScript-%F0%9F%91%8D-blue.svg">
+    <img alt="typescript" src="https://img.shields.io/github/languages/top/bconnorwhite/join-newlines.svg">
   </a>
   <a href="https://github.com/bconnorwhite/join-newlines">
     <img alt="GitHub stars" src="https://img.shields.io/github/stars/bconnorwhite/join-newlines?label=Stars%20Appreciated%21&style=social">
@@ -20,11 +20,11 @@
 
 ## Installation
 
-```bash
+```sh
 yarn add join-newlines
 ```
 
-```bash
+```sh
 npm install join-newlines
 ```
 

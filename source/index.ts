@@ -1,7 +1,7 @@
 
-const newline = "\n";
+export const newline = "\n";
 
-export default function join(lines: string[], end = false) {
-  const string = lines.join(newline);
-  return end ? string.concat(newline) : string;
+export default function join(lines: (string | undefined)[], end = false) {
+  const string = lines.filter((line) => line !== undefined).join(newline);
+  return `${string}${end ? newline : ""}`;
 }

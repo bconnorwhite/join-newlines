@@ -2,8 +2,11 @@
   "name": "join-newlines",
   "version": "2.0.0",
   "description": "Join an array of strings with newlines",
-  "license": "MIT",
+  "main": "./.build/index.js",
   "author": "Connor White",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bconnorwhite/join-newlines.git"
@@ -14,10 +17,11 @@
     "newline",
     "line"
   ],
+  "exports": "./.build/index.js",
+  "types": "./.build/index.d.ts",
   "files": [
     ".build"
   ],
-  "main": "./.build/index.js",
   "scripts": {
     "build": "tsc --project ./tsconfig.json --incremental",
     "test": "jest"

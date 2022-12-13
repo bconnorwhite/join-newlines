@@ -1,6 +1,6 @@
 {
   "name": "join-newlines",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Join an array of strings with newlines",
   "main": "./.build/index.js",
   "author": "Connor White",

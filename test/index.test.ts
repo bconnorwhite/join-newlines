@@ -1,5 +1,5 @@
 import { test, expect } from "@jest/globals";
-import join from "../source";
+import join from "../source/index.js";
 
 test("basic", () => {
   expect(join([

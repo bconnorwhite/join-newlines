@@ -1,31 +1,32 @@
-<div align="center">
-  <h1>clee</h1>
-  <a href="https://npmjs.com/package/clee">
-    <img alt="npm" src="https://img.shields.io/npm/v/join-newlines.svg">
+<!--BEGIN HEADER-->
+<div id="top" align="center">
+  <h1>join-newlines</h1>
+  <a href="https://npmjs.com/package/join-newlines">
+    <img alt="NPM" src="https://img.shields.io/npm/v/join-newlines.svg">
   </a>
-  <a href="https://github.com/bconnorwhite/clee">
-    <img alt="typescript" src="https://img.shields.io/github/languages/top/bconnorwhite/join-newlines.svg">
+  <a href="https://github.com/bconnorwhite/join-newlines">
+    <img alt="TypeScript" src="https://img.shields.io/github/languages/top/bconnorwhite/join-newlines.svg">
   </a>
 </div>
 
 <br />
 
-<blockquote align="center">Join an array of strings with newlines</blockquote>
+<blockquote align="center">Join an array of strings with newlines.</blockquote>
 
 <br />
 
 _If I should maintain this repo, please ⭐️_
-<a href="https://github.com/bconnorwhite/clee">
+<a href="https://github.com/bconnorwhite/join-newlines">
   <img align="right" alt="GitHub stars" src="https://img.shields.io/github/stars/bconnorwhite/join-newlines?label=%E2%AD%90%EF%B8%8F&style=social">
 </a>
 
 _DM me on [Twitter](https://twitter.com/bconnorwhite) if you have questions or suggestions._
 <a href="https://twitter.com/bconnorwhite">
-  <img align="right" alt="Twitter Follow" src="https://img.shields.io/twitter/url?label=%40bconnorwhite&style=social&url=https%3A%2F%2Ftwitter.com%2Fbconnorwhite">
+  <img align="right" alt="Twitter" src="https://img.shields.io/twitter/url?label=%40bconnorwhite&style=social&url=https%3A%2F%2Ftwitter.com%2Fbconnorwhite">
 </a>
 
 ---
-> 
+<!--END HEADER-->
 
 ## Installation
 
@@ -35,6 +36,10 @@ yarn add join-newlines
 
 ```sh
 npm install join-newlines
+```
+
+```sh
+pnpm add join-newlines
 ```
 
 ## API
@@ -77,17 +82,18 @@ join([
 ### Why not just type `.join("\n")` after the array?
 - Think this looks a little cleaner / more readable, and filters out `undefined` values.
 
+<!--BEGIN FOOTER-->
+
 <br />
 
-<h2 id="dev-dependencies">Dev Dependencies</h2>
+<h2>Dev Dependencies</h2>
 
-- [@swc/core](https://www.npmjs.com/package/@swc/core): Super-fast alternative for babel
-- [@swc/jest](https://www.npmjs.com/package/@swc/jest): Swc integration for jest
-- [jest](https://www.npmjs.com/package/jest): Delightful JavaScript Testing.
-- [typescript](https://www.npmjs.com/package/typescript): TypeScript is a language for application scale JavaScript development
+- [autorepo](https://www.npmjs.com/package/autorepo): Autorepo abstracts away your dev dependencies, providing a single command to run all of your scripts.
+
 
 <br />
 
 <h2 id="license">License <a href="https://opensource.org/licenses/MIT"><img align="right" alt="license" src="https://img.shields.io/npm/l/join-newlines.svg"></a></h2>
 
 [MIT](https://opensource.org/licenses/MIT)
+<!--END FOOTER-->
